@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MyFirstAndroid</string>
     <string name="lol">LOL</string>
+    <string name="greeting">Hello World!</string>
     <string name="ipaddress">IP Address:</string>
 
 </resources>
