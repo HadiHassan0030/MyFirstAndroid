@@ -28,6 +28,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.421" />
+        android:layout_width="168dp"
+        android:layout_height="86dp"
+        android:text="@string/lol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429" />
 
     <Button
         android:id="@+id/button2"
@@ -37,6 +46,9 @@
         android:layout_marginRight="124dp"
         android:text="@string/greeting"
         app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        master
         tools:layout_editor_absoluteY="470dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
